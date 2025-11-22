@@ -41,6 +41,9 @@
                                 </svg>
                                 {{ $tpmodul->created_at->format('M d, Y') }}
                             </span>
+                            <span class="flex items-center bg-yellow-100 text-amber-500 p-2 rounded-xl font-bold">
+                                {{ $tpmodul->category->nama}}
+                            </span>
                         </div>
                     </div>
                     
